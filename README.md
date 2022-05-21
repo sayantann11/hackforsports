@@ -29,11 +29,11 @@ the minimum, maximum and median, first quartile and third quartile in the data s
 This project tries to visualize these important factors that determine the player’s real position in the team using the
 visualizing techniques and above mentioned visualization charts
 
-To visualize the data set to maximum extent
-To learn the development of a dashboard using the html, css, javascript.
-To apply various visualizing techniques learnt in class
-To use the django framework in the pycharm IDE
-To analyze the players performance and win the match strategically.
+1.To visualize the data set to maximum extent
+2.To learn the development of a dashboard using the html, css, javascript.
+3.To apply various visualizing techniques learnt in class
+4.To use the django framework in the pycharm IDE
+5.To analyze the players performance and win the match strategically.
 
 
 ## flowChart of project:
