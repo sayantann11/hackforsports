@@ -32,20 +32,16 @@ visualizing techniques and above mentioned visualization charts
 ### This repository contains the source code of the project work from past 24 hours.
 The Jupyter Notebook contains:
 
-1. Descriptive Analysis of the Agriculture Data.
-    i)checking summary of crops such as average of various parameters.
-    ii)summary statistics of indivisual crop. using Interactive function to choose.
-    iii)Average requirnment for each crop with given conditions.
+1.To visualize the data set to maximum extent
 
-2. Analysis of different agcriculture
-    i)conditions using disc plot
+2.To learn the development of a dashboard using the html, css, javascript
 
-3. categories the crop based on season clustering similar kind of crops
-    using hard and soft clustering techniques.
+3.To apply various visualizing techniques learnt in class
 
-4. Finding out any hiding Patterns in the Dataset.
+4. To use the django framework in the pycharm IDE
 
-5. Predictive Modeling.
+5. To analyze the players performance and win the match strategically.
+
 
 
 ## flowChart of project:
@@ -55,4 +51,6 @@ https://github.com/sayantann11/hackforsports/issues/1#issue-1243965899
 
 ## snap Shot of project
 
-https://github.com/sayantann11/hackforsports/issues/2#issue-1243966117
+![image](https://user-images.githubusercontent.com/64836894/169651674-6e4e578b-1a32-484e-ae02-2a8ab2796928.png)
+![image](https://user-images.githubusercontent.com/64836894/169651712-572d7494-524d-4d65-8897-48559b627ebb.png)
+
