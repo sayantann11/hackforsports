@@ -29,11 +29,23 @@ the minimum, maximum and median, first quartile and third quartile in the data s
 This project tries to visualize these important factors that determine the player’s real position in the team using the
 visualizing techniques and above mentioned visualization charts
 
-1.To visualize the data set to maximum extent
-2.To learn the development of a dashboard using the html, css, javascript.
-3.To apply various visualizing techniques learnt in class
-4.To use the django framework in the pycharm IDE
-5.To analyze the players performance and win the match strategically.
+### This repository contains the source code of the project work from past 24 hours.
+The Jupyter Notebook contains:
+
+1. Descriptive Analysis of the Agriculture Data.
+    i)checking summary of crops such as average of various parameters.
+    ii)summary statistics of indivisual crop. using Interactive function to choose.
+    iii)Average requirnment for each crop with given conditions.
+
+2. Analysis of different agcriculture
+    i)conditions using disc plot
+
+3. categories the crop based on season clustering similar kind of crops
+    using hard and soft clustering techniques.
+
+4. Finding out any hiding Patterns in the Dataset.
+
+5. Predictive Modeling.
 
 
 ## flowChart of project:
