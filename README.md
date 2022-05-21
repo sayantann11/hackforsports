@@ -45,12 +45,11 @@ The Jupyter Notebook contains:
 
 
 ## flowChart of project:
-
-https://github.com/sayantann11/hackforsports/issues/1#issue-1243965899
+![image](https://user-images.githubusercontent.com/64836894/169651674-6e4e578b-1a32-484e-ae02-2a8ab2796928.png)
 
 
 ## snap Shot of project
 
-![image](https://user-images.githubusercontent.com/64836894/169651674-6e4e578b-1a32-484e-ae02-2a8ab2796928.png)
+
 ![image](https://user-images.githubusercontent.com/64836894/169651712-572d7494-524d-4d65-8897-48559b627ebb.png)
 
