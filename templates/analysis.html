@@ -1,0 +1,412 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <style type="text/css">
+.StyleRows {
+background-color: #FFFFFF;
+color: #3366CC;
+font: 13px Verdana;
+font-weight: bold;
+text-align: center; }
+</style>
+
+
+  <meta charset="utf-8" />
+  <link rel="apple-touch-icon" sizes="76x76" href="../asset/img/apple-icon.png">
+  <link rel="icon" type="image/png" href="../asset/img/favicon.png">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <title>
+    Analyze
+  </title>
+  <meta content='width=device-width, initial-scale=1.0, shrink-to-fit=no' name='viewport' />
+  <!--     Fonts and icons     -->
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+  <!-- CSS Files -->
+  <link href="../asset/css/material-dashboard.css?v=2.1.2" rel="stylesheet" />
+  <!-- CSS Just for demo purpose, don't include it in your project -->
+  <link href="../asset/demo/demo.css" rel="stylesheet" />
+</head>
+
+<body class="">
+  <div class="wrapper ">
+    <div class="sidebar" data-color="purple" data-background-color="white" data-image="../asset/img/side1.jpg">
+      <div class="logo"><a href="" class="simple-text logo-normal">
+          Cricket Analysis
+        </a></div>
+      <div class="sidebar-wrapper">
+        <ul class="nav">
+          <li class="nav-item active  ">
+            <a class="nav-link" href="">
+              <i class="material-icons">content_paste</i>
+              <p>Analyze</p>
+            </a>
+          </li>
+
+            <li class="nav-item ">
+            <a class="nav-link" href="index.html">
+              <i class="material-icons">bubble_chart</i>
+              <p>Home</p>
+            </a>
+          </li>
+
+          <li class="nav-item ">
+            <a class="nav-link" href="aboutus.html">
+              <i class="material-icons">person</i>
+              <p>About Us</p>
+            </a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+    <div class="main-panel">
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-transparent navbar-absolute fixed-top ">
+        <div class="container-fluid">
+          <div class="navbar-wrapper">
+            <a class="navbar-brand" href="javascript:;">Analyze</a>
+          </div>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="navbar-toggler-icon icon-bar"></span>
+            <span class="navbar-toggler-icon icon-bar"></span>
+            <span class="navbar-toggler-icon icon-bar"></span>
+          </button>
+        </div>
+      </nav>
+      <!-- End Navbar -->
+
+      <!-- main page ==================================================================================================================== -------------->
+      <!-- main page ==================================================================================================================== -------------->
+      <!-- main page ==================================================================================================================== -------------->
+      <!-- main page ==================================================================================================================== -------------->
+      <!-- main page ==================================================================================================================== -------------->
+      <div class="content">
+        <div class="container-fluid" align="center">
+            <h1 align="center">IPL Total Analysis</h1>
+          <div class="row" style="width : 900px" align="middle">
+
+			  <!-- ============================== bar 1========================= -->
+              <div class="card card-stats">
+                <div class="card-header card-header-info card-header-icon">
+                  <div class="card-icon">
+					  <a>Maximum Run in IPL League</a>
+                  </div>
+					<br>
+					<br>
+					<br>
+					<br>
+
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+
+        var data = google.visualization.arrayToDataTable({{maxruns|safe}});
+
+        var options = {
+          pieSliceText: 'value',
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+
+        chart.draw(data, options);
+      }
+    </script>
+  </head>
+  <body>
+    <div id="piechart" style="width: 900px; height: 500px;"></div>
+  </body>
+
+
+                </div>
+                <div class="card-footer">
+                  <div class="stats">
+
+                    <a href="javascript:;"></a>
+                  </div>
+                </div>
+              </div>
+
+			    <!-- ==============================  bar1 ======================== -->
+
+
+<!-- ============================== bar 1========================= -->
+              <div class="card card-stats">
+                <div class="card-header card-header-info card-header-icon">
+                  <div class="card-icon">
+					 <a>Maximum Wickets in IPL League</a>-->
+                  </div>
+					<br>
+					<br>
+					<br>
+					<br>
+
+       <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['bar']});
+      google.charts.setOnLoadCallback(drawStuff);
+
+      function drawStuff() {
+        var data = new google.visualization.arrayToDataTable({{highestwicket|safe}});
+
+        var options = {
+          width: 800,
+          legend: { position: 'none' },
+          bar: { groupWidth: "90%" }
+        };
+
+        var chart = new google.charts.Bar(document.getElementById('top_x_div2'));
+        // Convert the Classic options to Material options.
+        chart.draw(data, google.charts.Bar.convertOptions(options));
+      };
+    </script>
+  </head>
+  <body>
+    <div id="top_x_div2" style="width: 800px; height: 600px;"></div>
+  </body>
+
+
+
+                </div>
+                <div class="card-footer">
+                  <div class="stats">
+
+                    <a href="javascript:;"></a>
+                  </div>
+                </div>
+              </div>
+
+			    <!-- ==============================  bar1 ======================== -->
+
+
+
+
+              <!-- ============================== bar 1========================= -->
+              <div class="card card-stats">
+                <div class="card-header card-header-info card-header-icon">
+                  <div class="card-icon">
+					<a>Maximum Toss Won</a>-->
+                  </div>
+					<br>
+					<br>
+					<br>
+					<br>
+
+        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawVisualization);
+
+      function drawVisualization() {
+        // Some raw data (not necessarily accurate)
+        var data = google.visualization.arrayToDataTable({{toss_win|safe}});
+
+        var options = {
+          vAxis: {title: 'Toss Won'},
+          hAxis: {title: 'Team Name'},
+          seriesType: 'bars',
+          series: {1: {type: 'line'}}
+        };
+
+        var chart = new google.visualization.ComboChart(document.getElementById('chart_div'));
+        chart.draw(data, options);
+      }
+    </script>
+  </head>
+  <body>
+    <div id="chart_div" style="width: 900px; height: 500px;"></div>
+  </body>
+
+
+                </div>
+                <div class="card-footer">
+                  <div class="stats">
+
+                    <a href="javascript:;"></a>
+                  </div>
+                </div>
+              </div>
+
+			    <!-- ==============================  bar1 ======================== -->
+
+
+
+
+              <!-- ============================== bar 1========================= -->
+              <div class="card card-stats">
+                <div class="card-header card-header-info card-header-icon">
+                  <div class="card-icon">
+					   <a>Winning Percentage in IPL</a>-->
+                  </div>
+					<br>
+					<br>
+					<br>
+					<br>
+
+       <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['bar']});
+      google.charts.setOnLoadCallback(drawStuff);
+
+      function drawStuff() {
+        var data = new google.visualization.arrayToDataTable({{most_wins|safe}});
+
+        var options = {
+          width: 800,
+          legend: { position: 'none' },
+            bars: 'horizontal',
+            colors:['red','#004411'],
+                      axes: {
+            x: {
+              0: { side: 'top'} // Top x-axis.
+            }
+          },
+          bar: { groupWidth: "90%" }
+        };
+
+        var chart = new google.charts.Bar(document.getElementById('top_x_div5'));
+        // Convert the Classic options to Material options.
+        chart.draw(data, google.charts.Bar.convertOptions(options));
+      };
+    </script>
+  </head>
+  <body>
+    <div id="top_x_div5" style="width: 800px; height: 600px;"></div>
+  </body>
+
+                </div>
+                <div class="card-footer">
+                  <div class="stats">
+
+                    <a href="javascript:;"></a>
+                  </div>
+                </div>
+              </div>
+
+			    <!-- ==============================  bar1 ======================== -->
+
+
+
+
+              <!-- ============================== bar 1========================= -->
+              <div class="card card-stats">
+                <div class="card-header card-header-info card-header-icon">
+                  <div class="card-icon">
+					 <a>Runs Distribution Scored in Inning by All Teams</a>-->
+                  </div>
+                    <div align="center">
+                        <img src="asset/box.png" align="center">
+                    </div>
+
+
+                </div>
+                <div class="card-footer">
+                  <div class="stats">
+
+                    <a href="javascript:;"></a>
+                  </div>
+                </div>
+              </div>
+
+			    <!-- ==============================  bar1 ======================== -->
+
+
+
+
+              <!-- ============================== bar 1========================= -->
+              <div class="card card-stats">
+                <div class="card-header card-header-info card-header-icon">
+                  <div class="card-icon">
+                      <a>Most Man of the Math in IPL League</a>
+                  </div>
+					<br>
+					<br>
+					<br>
+					<br>
+
+  <script type="text/javascript" src="http://www.google.com/jsapi"></script>
+<script type="text/javascript">
+google.load('visualization', '1', {packages: ['table']});
+</script>
+<script type="text/javascript">
+function drawVisualization() {
+var data = new google.visualization.DataTable();
+data.addColumn('string', 'Name');
+data.addColumn('number', 'Place');
+data.addRows({{most_mom|safe}});
+visualization = new google.visualization.Table(document.getElementById('table'));
+var StyleRows = {tableRow: 'StyleRows'} ;
+visualization.draw(data,{showRowNumber: true,alternatingRowStyle: false,allowHtml: true,height : 300,width: 500,cssClassNames: StyleRows});
+}
+google.setOnLoadCallback(drawVisualization);
+</script>
+</head>
+<body>
+<div id="table"></div>
+</body>
+
+
+
+                </div>
+                <div class="card-footer">
+                  <div class="stats">
+
+                    <a href="javascript:;"></a>
+                  </div>
+                </div>
+              </div>
+
+			    <!-- ==============================  bar1 ======================== -->
+
+
+
+      <!-- main page end==================================================================================================================== -------------->
+      <!-- main page end==================================================================================================================== -------------->
+      <!-- main page end==================================================================================================================== -------------->
+      <!-- main page end==================================================================================================================== -------------->
+
+      <footer class="footer">
+        <div class="container-fluid">
+
+
+
+        </div>
+      </footer>
+    </div>
+	</div>
+  <!--   Core JS Files  ----------------->
+  <script src="../asset/js/core/jquery.min.js"></script>
+  <script src="../asset/js/core/popper.min.js"></script>
+  <script src="../asset/js/core/bootstrap-material-design.min.js"></script>
+  <script src="../asset/js/plugins/perfect-scrollbar.jquery.min.js"></script>
+  <script src="../asset/js/plugins/moment.min.js"></script>
+  <script src="../asset/js/plugins/sweetalert2.js"></script>
+  <script src="../asset/js/plugins/jquery.validate.min.js"></script>
+  <script src="../asset/js/plugins/jquery.bootstrap-wizard.js"></script>
+  <script src="../asset/js/plugins/bootstrap-selectpicker.js"></script>
+  <script src="../asset/js/plugins/bootstrap-datetimepicker.min.js"></script>
+  <script src="../asset/js/plugins/jquery.dataTables.min.js"></script>
+  <script src="../asset/js/plugins/bootstrap-tagsinput.js"></script>
+  <script src="../asset/js/plugins/jasny-bootstrap.min.js"></script>
+  <script src="../asset/js/plugins/fullcalendar.min.js"></script>
+  <script src="../asset/js/plugins/jquery-jvectormap.js"></script>
+  <script src="../asset/js/plugins/nouislider.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/core-js/2.4.1/core.js"></script>
+  <script src="../asset/js/plugins/arrive.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
+  <script src="../asset/js/plugins/chartist.min.js"></script>
+  <script src="../asset/js/plugins/bootstrap-notify.js"></script>
+  <script src="../asset/js/material-dashboard.js?v=2.1.2" type="text/javascript"></script>
+  <script src="../asset/demo/demo.js"></script>
+
+</body>
+
+</html>
+
